@@ -4,7 +4,7 @@ const Map = ({center, zoom}) => {
     return( 
         <div className="map">
             <GoogleMapReact bootstrapURLKeys={{key:
-            'xxxxxxx....'}} // API key
+            '##############'}} // API key
                 defaultCenter={center}
                 defaultZoom={zoom}
             >
@@ -15,10 +15,10 @@ const Map = ({center, zoom}) => {
 
 Map.defaultProps = {
     center: {
-        lat: 42.3265, 
-        lng: -122.8756
+        lat: 52.2297, 
+        lng: 21.0122
     },
-    zoom: 6
+    zoom: 3
 }
 
 export default Map
