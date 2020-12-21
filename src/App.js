@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-
+import Loader from './components/Loader'
 import Map from './components/Map'
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
     console.log(process.env)
     return ( 
         <div>
-            <Map/>
+            { !loading ? <Map eventData={eventData} /> : <Loader />}
         </div>
     );
 }
