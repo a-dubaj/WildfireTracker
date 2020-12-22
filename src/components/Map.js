@@ -2,11 +2,11 @@ import { useState } from 'react'
 import GoogleMapReact from 'google-map-react'
 import LocationMarker from './LocationMarker'
 import LocationInfoBox from './LocationInfoBox'
-const api_key = process.env.production.REACT_APP_API_KEY
 
 const Map = ({ eventData, center, zoom }) => {
     const [locationInfo, setLocationInfo] = useState(null)
-
+    const api_key = process.env.REACT_APP_API_KEY
+    
     const markers = eventData.map(e => {
         if (e.categories[0].id === 8) {
             return <LocationMarker lat = { e.geometries[0].coordinates[1] }
