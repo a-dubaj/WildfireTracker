@@ -26,11 +26,14 @@ const Map = ({ eventData, center, zoom }) => {
             }
         }
         defaultCenter = { center }
-        defaultZoom = { zoom } > { markers } 
-        </GoogleMapReact> {locationInfo && < LocationInfoBox info = { locationInfo }/>}  
+        defaultZoom = { zoom } > 
+        { markers } 
+        </GoogleMapReact> {
+            locationInfo && < LocationInfoBox info = { locationInfo } 
+            />}  
         </div>
-    )
-}
+        )
+    }
 
 Map.defaultProps = {
     center: {
