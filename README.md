@@ -15,10 +15,14 @@ To run a project you should type:
 
 - install dependencies
 ``` shell
-npm i
+$ npm i
 ```
 - run project
 ``` shell
-npm start
+$ npm start
 ```
 ---
+
+## Important
+
+This project uses a NASA API for grabbing data coordinates and display on the map. A key is needed for correct work of the  application.
