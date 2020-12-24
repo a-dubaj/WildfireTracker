@@ -24,7 +24,7 @@ npm start
 
 ## Important
 
-This project uses a NASA API for grabbing data coordinates and display on the map. A key is needed for correct work of the  application. To correct setup create `.env` file in main directory of the procject. In this file add as fallows:
+This project uses a [NASA API]("https://api.nasa.gov/") for grabbing data coordinates and display on the map. A key is needed for correct work of the  application. To correct setup create `.env` file in main directory of the procject. In this file add as fallows:
 
 
 `REACT_APP_API_KEY= ...
