@@ -4,6 +4,7 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
+* [Important](#important)
 
 ## General info
 Online Fire tracker is an app for tracking wildfires around the world. This application uses NASA API for geolocation purposes.
