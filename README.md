@@ -13,6 +13,7 @@ Online Fire tracker is an app for tracking wildfires around the world. This appl
 Project is created with:
 * Node.js
 * React
+* THE NASA API
 
 ## Setup
 To run a project, install it locally using npm:
