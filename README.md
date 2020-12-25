@@ -4,6 +4,11 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
+* [Important](#important)
+
+<p align="center">
+  <img src="./assets/1.png" alt="Demo" width="800" />
+</p>
 
 ## General info
 Online Fire tracker is an app for tracking wildfires around the world. This application uses NASA API for geolocation purposes.
@@ -12,6 +17,7 @@ Online Fire tracker is an app for tracking wildfires around the world. This appl
 Project is created with:
 * Node.js
 * React
+* THE NASA API
 
 ## Setup
 To run a project, install it locally using npm:
