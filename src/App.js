@@ -18,7 +18,8 @@ function App() {
       setLoading(false)
     }
     fetchEvents()
-  }, [])
+  }, 
+  [])
 
   require("dotenv").config()
   console.log(process.env)
