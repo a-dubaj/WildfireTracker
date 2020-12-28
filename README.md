@@ -10,7 +10,7 @@
   <img src="./assets/1.png" alt="Demo" width="800" />
 </p>
 
-[DEMO]()
+[DEMO](https://wildfiret.herokuapp.com)
 
 ## General info
 Online Fire tracker is an app for tracking wildfires around the world. This application uses NASA API for geolocation purposes.
